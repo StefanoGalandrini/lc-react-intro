@@ -2,5 +2,27 @@
   /* padding: 1rem;
   border-bottom: 1px solid #ccc;
   text-align: center; */
-  @apply px-4 py-6 bg-gray-900 text-white text-center;
+  @apply px-4 py-6 bg-gray-900 text-white text-center flex;
+}
+
+.title {
+  /* font-size: 1.5rem;
+  font-weight: 700; */
+  @apply text-lg font-bold;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+
+  >li>a {
+    padding: .8rem 1rem;
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      color: #ccc;
+    }
+  }
 }
