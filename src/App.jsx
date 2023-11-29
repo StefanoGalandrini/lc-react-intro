@@ -3,11 +3,10 @@ import TheFooter from './components/TheFooter';
 import PizzasList from './components/PizzasList';
 import { useState } from 'react';
 import { number } from 'prop-types';
+import Button from './components/Button';
 
 function App() {
   const [numero, setNumero] = useState(0);
-
-  // console.log(numero);
 
   function incrementa() {
     setNumero(numero + 1);
@@ -24,6 +23,7 @@ function App() {
           <h1 className='text-4xl'>Ristoria Pizzurante</h1>
           <h2>Se non ci vieni sei ignurante</h2>
 
+          <Button></Button>
           <button onClick={incrementa}>Incrementa</button>
           <p>{numero}</p>
 

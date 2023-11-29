@@ -1,4 +1,3 @@
-import { useState } from "react";
 import listaPizze from "../pizze.json";
 
 /**
@@ -22,6 +21,7 @@ function showFirstIcon(i) {
 }
 
 export default function PizzasList() {
+  
   return (
     <div className="mt-6 flex flex-wrap">
       {listaPizze.map((pizza, i) => {
