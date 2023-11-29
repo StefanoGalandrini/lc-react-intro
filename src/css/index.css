@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  /* padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  text-align: center; */
+  @apply p-4 border-b border-gray-500 text-center;
+}
