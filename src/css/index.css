@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.card {
+    @apply bg-white border border-gray-300 rounded-lg shadow-sm p-4;
+    @apply mb-6;
+}
+
+.card-body {
+    @apply p-12;
+}
+

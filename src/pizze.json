@@ -20,6 +20,7 @@
       "aglio",
       "origano"
     ],
+    "vegan": true,
     "updatedAt": "2023-11-13T09:53:38.956Z"
   },
   {
@@ -64,6 +65,19 @@
     "attachment": [
       "storage/secret_imageaaa.jpg"
     ],
+    "updatedAt": "2023-11-13T09:53:38.956Z"
+  },
+  {
+    "id": 105,
+    "slug": "zucchine",
+    "name": "Zucchine",
+    "image": "zucchine.jpg",
+    "ingredients": [
+      "pomodoro",
+      "mozzarella vegana",
+      "zucchine"
+    ],
+    "vegan": true,
     "updatedAt": "2023-11-13T09:53:38.956Z"
   }
 ]
